@@ -4,7 +4,7 @@ import requests
 
 app = Flask(__name__)
 
-GROUPME_BOT_ID = os.getenv("5ab0269119498e250d830399f3")
+GROUPME_BOT_ID = os.getenv("GROUPME_BOT_ID")
 
 @app.route("/", methods=["GET"])
 def home():
